@@ -1,0 +1,188 @@
+/* CSS Document */
+
+/* COMMON STYLE */
+
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+html {height: 100%;}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	color: #333333;
+	font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana,' sans-serif';
+	font-size: 14px;
+	line-height: 135%;
+	float: left;
+	
+}
+
+a {
+	color: dimgrey;
+	text-decoration: none;
+	-webkit-transition: all.6s easy; /* Link will change his color slowler */
+}
+a:hover {
+	color: #E8E8E8;
+}
+
+.clear {
+	clear: both;
+}
+img {
+	max-height: auto;
+	max-width: 100%;
+	width: auto\9; /* IE 8 */
+}
+
+
+
+/* HEADER */
+
+header { 
+	width: 98%;
+	float: left;
+	padding: 1%;
+	background-color: #fafafa;
+	border-bottom: 2px solid silver;
+	
+}
+
+header #logo {
+	width: 40%;
+	float: left;
+}
+header #logo span {
+	color: #9C3233;
+}
+header #menu {
+	width: 30%;
+	float: left;
+	text-align: center;
+	font-size: 2em;
+}
+
+header #auth {
+	width: 30%;
+	float: left;
+	text-align: right;
+	font-size: 2em;
+}
+header #logo a {
+	text-align: center;
+	font-size: 4em;
+	font-family: Times new Roman, Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+}
+header #menu div{
+	float: left;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #BDBDBD;
+	color: white;
+}
+header #menu div:hover{
+	background-color:#E1E1E1;	
+	color: #B8B8B8;
+}
+
+
+/* FOOTER */ 
+
+
+footer {
+	width: 98%;
+	padding: 1%;
+	float: left;
+	background-color: #F0F0F0;
+	border-top: 2px solid silver;
+	margin-top: 10px; 
+}
+
+footer #social {
+	float: left;
+	width: 50%;
+}
+
+footer #rights{
+	float: left;
+	width: 50%;
+	text-align: right;
+	font-size: 1.1em;
+}
+
+footer #social img{
+	float: left;
+	margin-right: 5px;
+}
+
+
+/* CONTENT */
+
+
+content allnews {
+	margin: 40px;
+}
+
+content allnews #mainews {
+	
+	padding: 1%;
+	margin: 40px;
+	width: 63%;
+	background-color: #F5F5F5;
+}
+
+content allnews #mainews h1 {
+	margin: 20px;
+}
+
+content allnews #mainews button {
+
+	width: 70px;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+content #sidebar {
+	float: right;
+	width: 18%;
+	margin: 40px;	
+	
+}
+content .next {
+	border-radius: 5px;
+	background-color: #93A4F0;
+	width: 10%;
+	text-align: center;
+	color: #FFFFFF;
+	height: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 1.5em;
+}
+content .next:hover {
+	background-color: #BCCCFD;
+}
+
+allnews .othernews {
+	width: 28.5%;
+	float: left;
+	background-color: #F5F5F5;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding: 1%;
+	margin-bottom: 100px;
+}
+
+.othernews h1{
+	margin: 10px;
+}
+.othernews img{
+	height: 100px;
+}
